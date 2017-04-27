@@ -41,6 +41,7 @@ public class PortraitPlayerActivity extends Activity {
 
         mPlayer = (HussarPlayer) findViewById(R.id.player);
         mPlayer.setAutoFullScreen(true);
+        mPlayer.setConfig(IHussarPlayer.ConfigKey.CONFIG_PLAYER_FIRST_HIGHT_WARTER_MARK_MS, 2 * 1000);//设置首次缓冲时间
         mPlayer.getLayoutParams().height = getScreenWidth(this) * 9 / 16;
         mPlayer.setHussarPlayerListener(new IHussarPlayer.IHussarPlayerListener() {
             @Override

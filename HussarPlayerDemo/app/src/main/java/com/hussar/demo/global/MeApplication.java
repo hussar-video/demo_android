@@ -16,7 +16,7 @@ public class MeApplication extends Application{
     @Override
     public void onCreate() {
         super.onCreate();
-        HussarManager.register(this,"demo@hussar.video","cBOeYPVHE1gZteOV8oQvc4zACFBGtD7AH7QYLOucoIWxBXa+1YTYwU9II/Y=");
+        HussarManager.register(this,"demo@hussar.video","uGQ2PX1z0DWAjGNOWBW6jpC8b6FYsqmdkUduMYt1kjt0p7ts30JmgyGAaDY=");
     }
 
     private void initObject() {
